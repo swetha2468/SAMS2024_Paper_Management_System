@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox fx:id="tentryvbox2" prefHeight="478.0" prefWidth="807.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.gui.PCMController">
+  <children>
+      <HBox alignment="TOP_RIGHT" prefHeight="100.0" prefWidth="200.0">
+         <children>
+          <AnchorPane fx:id="tentryanchor" maxHeight="-1.0" maxWidth="-1.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="807.0" style="-fx-background-color: #EFEFEF;">
+            <children>
+                  <HBox layoutX="433.0" layoutY="99.0">
+                     <children>
+                        <VBox layoutX="423.0" layoutY="112.0" />
+                        <VBox layoutX="612.0" layoutY="58.05078125" />
+                     </children>
+                  </HBox>
+                  <Text fx:id="SubmitterView" layoutX="19.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PCM:" wrappingWidth="93.0">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Text>
+                  <TextField fx:id="SubmitterName" editable="false" layoutX="102.0" layoutY="33.0" prefHeight="38.0" prefWidth="139.0" style="-fx-background-color: #EFEFEF;" text="DefaultName">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </TextField>
+                  <Button fx:id="SubmitPaper" alignment="CENTER" layoutX="37.0" layoutY="71.0" mnemonicParsing="false" onAction="#SubmitPaper" prefHeight="58.0" prefWidth="169.0" style="-fx-background-color: #0071E3; -fx-background-radius: 10;" text="Get Papers" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="16.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="EditPaper" alignment="CENTER" layoutX="37.0" layoutY="152.0" mnemonicParsing="false" onAction="#EditPaper" prefHeight="58.0" prefWidth="169.0" style="-fx-background-color: #0071E3; -fx-background-radius: 10;" text="Review Paper" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="16.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="WithdrawPaper" alignment="CENTER" layoutX="37.0" layoutY="242.0" mnemonicParsing="false" onAction="#WithdrawPaper" prefHeight="58.0" prefWidth="169.0" style="-fx-background-color: #0071E3; -fx-background-radius: 10;" text="Get Reviews" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="16.0" />
+                     </font>
+                  </Button>
+                  <ListView layoutX="241.0" layoutY="52.0" prefHeight="455.0" prefWidth="533.0" />
+                  <Button fx:id="UploadPaper" alignment="CENTER" layoutX="38.0" layoutY="327.0" mnemonicParsing="false" onAction="#UploadPaper" prefHeight="58.0" prefWidth="169.0" style="-fx-background-color: #0071E3; -fx-background-radius: 10;" text="Submit Review" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="16.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="Logout" alignment="CENTER" layoutX="37.0" layoutY="412.0" mnemonicParsing="false" onAction="#Logout" prefHeight="58.0" prefWidth="169.0" style="-fx-background-color: #0071E3; -fx-background-radius: 10;" text="Modify Review" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="16.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="Logout1" alignment="CENTER" layoutX="58.0" layoutY="491.0" mnemonicParsing="false" onAction="#Logout" prefHeight="25.0" prefWidth="129.0" style="-fx-background-color: #0071E3; -fx-background-radius: 10;" text="Logout" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="16.0" />
+                     </font>
+                  </Button>
+                  <RadioButton layoutX="37.0" layoutY="15.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="130.0" text="ADMINISTRATOR" />
+                  <RadioButton layoutX="160.0" layoutY="15.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="93.0" text="SUBMITTER" />
+                  <RadioButton layoutX="256.0" layoutY="15.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="51.0" text="PCM" />
+                  <RadioButton layoutX="307.0" layoutY="15.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="51.0" text="PCC" />
+            </children>
+          </AnchorPane>
+         </children>
+      </HBox>
+  </children>
+</VBox>

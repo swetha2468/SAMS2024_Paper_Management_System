@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox fx:id="tentryvbox2" prefHeight="540.0" prefWidth="1307.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.gui.SubmitterController">
+  <children>
+    <AnchorPane fx:id="tentryanchor" maxHeight="-1.0" maxWidth="-1.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="534.0" prefWidth="2057.0" style="-fx-background-color: #EFEFEF;">
+      <children>
+            <HBox layoutX="406.0" layoutY="68.0">
+               <children>
+                  <VBox layoutX="423.0" layoutY="112.0" />
+                  <VBox layoutX="612.0" layoutY="58.05078125" />
+               </children>
+            </HBox>
+            <Text fx:id="SubmitterView" layoutX="19.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Submitter" wrappingWidth="93.0">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <TextField fx:id="SubmitterName" editable="false" layoutX="102.0" layoutY="33.0" prefHeight="38.0" prefWidth="139.0" style="-fx-background-color: #EFEFEF;" text="DefaultName">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </TextField>
+            <Button fx:id="SubmitPaper" alignment="CENTER" layoutX="39.0" layoutY="98.0" mnemonicParsing="false" onAction="#SubmitPaper" prefHeight="58.0" prefWidth="266.0" style="-fx-background-color: #0071E3; -fx-background-radius: 10;" text="Submit Paper" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="UpdatePaper" alignment="CENTER" layoutX="39.0" layoutY="182.0" mnemonicParsing="false" onAction="#UpdatePaper" prefHeight="58.0" prefWidth="266.0" style="-fx-background-color: #0071E3; -fx-background-radius: 10;" text="Update Paper" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="WithdrawPaper" alignment="CENTER" layoutX="39.0" layoutY="270.0" mnemonicParsing="false" onAction="#WithdrawPaper" prefHeight="58.0" prefWidth="266.0" style="-fx-background-color: #0071E3; -fx-background-radius: 10;" text="Withdraw Paper" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="Logout" alignment="CENTER" layoutX="39.0" layoutY="444.0" mnemonicParsing="false" onAction="#Logout" prefHeight="58.0" prefWidth="266.0" style="-fx-background-color: #0071E3; -fx-background-radius: 10;" text="Logout" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="DeletePaper" alignment="CENTER" layoutX="39.0" layoutY="355.0" mnemonicParsing="false" onAction="#DeletePaper" prefHeight="58.0" prefWidth="266.0" style="-fx-background-color: #0071E3; -fx-background-radius: 10;" text="Delete Paper" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="16.0" />
+               </font>
+            </Button>
+            <TableView fx:id="paperList" layoutX="324.0" layoutY="90.0" prefHeight="432.0" prefWidth="1113.0">
+              <columns>
+                <TableColumn fx:id="col_paperId" prefWidth="75.0" text="id" />
+                <TableColumn fx:id="col_paperStatus" minWidth="0.0" prefWidth="115.0" text="Submission Status" />
+                  <TableColumn fx:id="col_paperTitle" minWidth="0.0" prefWidth="369.0" text="Title" />
+                  <TableColumn fx:id="col_paperAuthors" prefWidth="160.0" text="Authors" />
+                  <TableColumn fx:id="col_paperVersion" prefWidth="101.0" text="Version" />
+                  <TableColumn fx:id="col_filename" prefWidth="118.0" text="Filename" />
+                  <TableColumn fx:id="col_paperFormat" minWidth="0.0" prefWidth="57.0" text="Format" />
+                  <TableColumn fx:id="col_viewFile" prefWidth="75.0" text="View File" />
+              </columns>
+            </TableView>
+      </children>
+    </AnchorPane>
+      <HBox alignment="TOP_RIGHT" prefHeight="26.0" prefWidth="2554.0" />
+  </children>
+</VBox>

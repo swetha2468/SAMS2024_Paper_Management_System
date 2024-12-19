@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox fx:id="tentryvbox2" prefHeight="540.0" prefWidth="511.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.gui.SubmitterController">
+  <children>
+    <AnchorPane fx:id="tentryanchor" maxHeight="-1.0" maxWidth="-1.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="329.0" style="-fx-background-color: #EFEFEF;">
+      <children>
+            <HBox layoutX="406.0" layoutY="68.0" />
+            <Text fx:id="SubmitterPaperView" layoutX="19.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Submitter" wrappingWidth="93.0">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <TextField fx:id="SubmitterName" editable="false" layoutX="102.0" layoutY="33.0" prefHeight="38.0" prefWidth="139.0" style="-fx-background-color: #EFEFEF;" text="DefaultName">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </TextField>
+            <Button fx:id="SubmitPaper" alignment="CENTER" layoutX="123.0" layoutY="362.0" mnemonicParsing="false" onAction="#Back" prefHeight="58.0" prefWidth="266.0" style="-fx-background-color: #0071E3; -fx-background-radius: 10;" text="Back" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="Logout" alignment="CENTER" layoutX="123.0" layoutY="444.0" mnemonicParsing="false" onAction="#Logout" prefHeight="58.0" prefWidth="266.0" style="-fx-background-color: #0071E3; -fx-background-radius: 10;" text="Logout" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="16.0" />
+               </font>
+            </Button>
+            <TextField fx:id="PaperTitleTextBox" layoutX="39.0" layoutY="107.0" prefHeight="25.0" prefWidth="455.0" />
+            <Text fx:id="PaperTitleHeading" layoutX="42.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Paper Title" wrappingWidth="93.0">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <Text fx:id="AuthorTitleHeading" layoutX="42.0" layoutY="153.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Authors" wrappingWidth="93.0">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <TextField fx:id="AuthorTitleTextBox" layoutX="39.0" layoutY="164.0" prefHeight="25.0" prefWidth="455.0" />
+            <TextField fx:id="UploadPathwayTextBox" layoutX="40.0" layoutY="225.0" prefHeight="25.0" prefWidth="455.0" />
+            <Text fx:id="UploadPathwayHeading" layoutX="40.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Upload Path" wrappingWidth="161.0">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <Button fx:id="UploadPaperButton" alignment="CENTER" layoutX="123.0" layoutY="281.0" mnemonicParsing="false" onAction="#UploadPaper" prefHeight="58.0" prefWidth="266.0" style="-fx-background-color: #0071E3; -fx-background-radius: 10;" text="Upload Paper" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="16.0" />
+               </font>
+            </Button>
+      </children>
+    </AnchorPane>
+      <HBox alignment="TOP_RIGHT" prefHeight="100.0" prefWidth="200.0" />
+  </children>
+</VBox>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="593.0" prefWidth="724.0" style="-fx-background-color: #EAEAEA;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.gui.ToolTipController"> 
+   <children>
+      <Button layoutX="14.0" layoutY="10.0" mnemonicParsing="false" onAction="#returnToPrimary" prefHeight="51.0" prefWidth="83.0" style="-fx-background-color: #EAEAEA;" text="Back" textFill="#0071e3">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Button>
+      <Text fill="#3ba0ff" layoutX="181.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Administrator Help">
+         <font>
+            <Font name="System Bold" size="40.0" />
+         </font>
+      </Text>
+      <Text layoutX="79.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" text="-- To modify account details, click into the cell and make changes." wrappingWidth="566.6708984375">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="79.0" layoutY="184.0" strokeType="OUTSIDE" strokeWidth="0.0" text="-- To delete an account details, click on the user id cell so that it become highlighted then click the delete button" wrappingWidth="566.6708984375">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="72.0" layoutY="263.0" strokeType="OUTSIDE" strokeWidth="0.0" text="-- To add an account, click the create account butotn and completely fill out the form" wrappingWidth="566.6708984375">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

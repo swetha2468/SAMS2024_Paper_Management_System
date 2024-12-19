@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox fx:id="tentryvbox2" prefHeight="540.0" prefWidth="511.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.gui.AdministratorController">
+  <children>
+    <AnchorPane fx:id="tentryanchor" maxHeight="-1.0" maxWidth="-1.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="873.0" prefWidth="511.0" style="-fx-background-color: #EFEFEF;">
+      <children>
+            <HBox layoutX="406.0" layoutY="68.0" />
+            <Text fx:id="AdministratorPaperView" layoutX="14.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Administrator" wrappingWidth="126.0">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <TextField fx:id="SubmitterName" editable="false" layoutX="132.0" layoutY="30.0" prefHeight="38.0" prefWidth="139.0" style="-fx-background-color: #EFEFEF;" text="DefaultName">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </TextField>
+            <Button fx:id="Back" alignment="CENTER" layoutX="121.0" layoutY="702.0" mnemonicParsing="false" onAction="#Back" prefHeight="58.0" prefWidth="266.0" style="-fx-background-color: #0071E3; -fx-background-radius: 10;" text="Back" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="Logout" alignment="CENTER" layoutX="121.0" layoutY="784.0" mnemonicParsing="false" onAction="#Logout" prefHeight="58.0" prefWidth="266.0" style="-fx-background-color: #0071E3; -fx-background-radius: 10;" text="Logout" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="16.0" />
+               </font>
+            </Button>
+            <TextField fx:id="usernametextbox" layoutX="39.0" layoutY="107.0" prefHeight="25.0" prefWidth="455.0" />
+            <Text fx:id="PaperTitleHeading" layoutX="42.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username" wrappingWidth="93.0">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <Text fx:id="AuthorTitleHeading" layoutX="42.0" layoutY="153.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" wrappingWidth="93.0">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <TextField fx:id="passwordtextbox" layoutX="39.0" layoutY="164.0" prefHeight="25.0" prefWidth="455.0" />
+            <TextField fx:id="firstnametextbox" layoutX="40.0" layoutY="225.0" prefHeight="25.0" prefWidth="455.0" />
+            <Text fx:id="UploadPathwayHeading" layoutX="40.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Firstname" wrappingWidth="161.0">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <Button fx:id="CreateAccount" alignment="CENTER" layoutX="121.0" layoutY="621.0" mnemonicParsing="false" onAction="#AddAccount" prefHeight="58.0" prefWidth="266.0" style="-fx-background-color: #0071E3; -fx-background-radius: 10;" text="Create Account" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="16.0" />
+               </font>
+            </Button>
+            <Text fx:id="UploadPathwayHeading1" layoutX="40.0" layoutY="402.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email" wrappingWidth="161.0">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <TextField fx:id="emailtextbox" layoutX="40.0" layoutY="412.0" prefHeight="25.0" prefWidth="455.0" />
+            <Text fx:id="AuthorTitleHeading1" layoutX="39.0" layoutY="337.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Primary Role" wrappingWidth="139.0">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <Text fx:id="PaperTitleHeading1" layoutX="42.0" layoutY="275.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lastname" wrappingWidth="93.0">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <TextField fx:id="lastnametextbox" layoutX="39.0" layoutY="286.0" prefHeight="25.0" prefWidth="455.0" />
+            <ComboBox fx:id="rolecombobox" layoutX="39.0" layoutY="347.0" prefWidth="150.0" promptText="ROLE" />
+            <TextField fx:id="phonetextbox" layoutX="39.0" layoutY="473.0" prefHeight="25.0" prefWidth="455.0" />
+            <Text fx:id="UploadPathwayHeading11" layoutX="39.0" layoutY="463.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone" wrappingWidth="161.0">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <Text layoutX="39.0" layoutY="530.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address" wrappingWidth="161.0">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <TextField fx:id="addresstextbox" layoutX="39.0" layoutY="540.0" prefHeight="25.0" prefWidth="455.0" />
+      </children>
+    </AnchorPane>
+      <HBox alignment="TOP_RIGHT" prefHeight="100.0" prefWidth="200.0" />
+  </children>
+</VBox>

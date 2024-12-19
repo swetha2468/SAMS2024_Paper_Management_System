@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+
+<BorderPane prefHeight="103.0" prefWidth="398.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.gui.NotificationCardController">
+<left>
+    <StackPane alignment="CENTER" maxHeight="120.0" maxWidth="200.0" prefHeight="86.0" prefWidth="102.0" style="-fx-background-color: #4CAF50; -fx-padding: 10;">
+        <children>
+            <Label fx:id="titleLabel" maxWidth="1.7976931348623157E308" style="-fx-font-size: 14; -fx-font-weight: bold; -fx-text-fill: white;" text="Title" />
+        </children>
+         <BorderPane.margin>
+            <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+         </BorderPane.margin>
+    </StackPane>
+</left>
+<center>
+    <HBox alignment="CENTER_LEFT" fillHeight="false" maxHeight="120.0" maxWidth="400.0" spacing="10" style="-fx-background-color: #96F9A3; -fx-padding: 10;" BorderPane.alignment="TOP_RIGHT">
+        <children>
+            <Label fx:id="messageLabel" style="-fx-font-size: 14;" text="Notification Message" />
+        </children>
+         <padding>
+            <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+         </padding>
+         <BorderPane.margin>
+            <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+         </BorderPane.margin>
+    </HBox>
+</center>
+</BorderPane>

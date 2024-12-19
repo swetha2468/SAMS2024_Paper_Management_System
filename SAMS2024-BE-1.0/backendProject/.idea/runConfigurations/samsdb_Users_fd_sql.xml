@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="samsdb_Users_fd.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
+    <script-file value="$PROJECT_DIR$/src/backend/database/sql/samsdb_Users_fd.sql" />
+    <script-mode>FILE</script-mode>
+    <data-source id="713cdf8b-5ce5-4295-8f53-64af2335bf76" namespace="schema/&quot;samsdb&quot;" />
+    <method v="2" />
+  </configuration>
+</component>

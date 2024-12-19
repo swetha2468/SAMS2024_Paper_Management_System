@@ -1,0 +1,19 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="samsdb_ContactInfo.sql and 11 more" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
+    <script-file value="$PROJECT_DIR$/src/backend/database/sql/samsdb_ContactInfo.sql" />
+    <script-file value="$PROJECT_DIR$/src/backend/database/sql/samsdb_Credentails.sql" />
+    <script-file value="$PROJECT_DIR$/src/backend/database/sql/samsdb_Deadlines.sql" />
+    <script-file value="$PROJECT_DIR$/src/backend/database/sql/samsdb_Details.sql" />
+    <script-file value="$PROJECT_DIR$/src/backend/database/sql/samsdb_NotificationTemplates.sql" />
+    <script-file value="$PROJECT_DIR$/src/backend/database/sql/samsdb_Papers.sql" />
+    <script-file value="$PROJECT_DIR$/src/backend/database/sql/samsdb_Reports.sql" />
+    <script-file value="$PROJECT_DIR$/src/backend/database/sql/samsdb_ReportTemplates.sql" />
+    <script-file value="$PROJECT_DIR$/src/backend/database/sql/samsdb_Reviews.sql" />
+    <script-file value="$PROJECT_DIR$/src/backend/database/sql/samsdb_ReviewTemplates.sql" />
+    <script-file value="$PROJECT_DIR$/src/backend/database/sql/samsdb_Templates.sql" />
+    <script-file value="$PROJECT_DIR$/src/backend/database/sql/samsdb_Users.sql" />
+    <script-mode>FILE</script-mode>
+    <data-source id="713cdf8b-5ce5-4295-8f53-64af2335bf76" namespace="schema/&quot;samsdb&quot;" />
+    <method v="2" />
+  </configuration>
+</component>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/src/backend/database/sql/samsdb_Deadlines.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/backend/database/sql/samsdb_NotificationTemplates.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/backend/database/sql/samsdb_Papers.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/backend/database/sql/samsdb_ReportTemplates.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/backend/database/sql/samsdb_Reports.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/backend/database/sql/samsdb_ReviewTemplates.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/backend/database/sql/samsdb_Reviews.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/backend/database/sql/samsdb_Templates.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/backend/database/sql/samsdb_Users.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/backend/database/sql/samsdb_Users_fd.sql" dialect="MySQL" />
+  </component>
+</project>

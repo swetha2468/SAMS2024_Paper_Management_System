@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+
+<TitledPane animated="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="269.0" prefWidth="355.0" text="ERROR" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.gui.ErrorController">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="244.0" prefWidth="353.0" style="-fx-background-color: #EAEAEA;">
+         <children>
+            <Button layoutX="141.0" layoutY="192.0" mnemonicParsing="false" onAction="#returnToActiveScreen" prefHeight="37.0" prefWidth="71.0" style="-fx-background-color: #0071E3; -fx-background-radius: 8;" text="OK" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font></Button>
+            <Text fx:id="errorConditionField" fill="#cf0450" layoutX="108.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Oops!" wrappingWidth="181.13671875">
+               <font>
+                  <Font name="System Bold" size="48.0" />
+               </font></Text>
+            <Text fx:id="errorConditionField1" layoutX="57.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Invalid Request. Try again?" wrappingWidth="255.13671875">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font>
+            </Text>
+         </children></AnchorPane>
+  </content>
+</TitledPane>

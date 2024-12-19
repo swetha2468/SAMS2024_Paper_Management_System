@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox fx:id="entryvbox" prefHeight="482.0" prefWidth="735.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.gui.LoginController">
+  <children>
+    <AnchorPane fx:id="entryanchor" maxHeight="-1.0" maxWidth="-1.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="553.0" prefWidth="735.0" style="-fx-background-color: #EAEAEA;">
+      <children>
+            <Button fx:id="Login" alignment="CENTER" layoutX="306.0" layoutY="304.0" mnemonicParsing="false" onAction="#Login" prefHeight="21.0" prefWidth="81.0" style="-fx-background-color: #0071E3; -fx-background-radius: 15;" text="Login" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="11.0" />
+               </font>
+            </Button>
+            <RadioButton fx:id="aboutButton" layoutX="644.0" layoutY="11.0" mnemonicParsing="false" onAction="#jumpToToolTip" text="About" textFill="#5e5e5ef2">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font></RadioButton>
+            <VBox layoutX="258.0" layoutY="197.0" prefHeight="107.0" prefWidth="220.0">
+               <children>
+                  <Text layoutX="61.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username" wrappingWidth="135.4375">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Text>
+                  <TextField fx:id="Username" layoutX="61.0" layoutY="82.0" prefHeight="0.0" prefWidth="220.0" promptText="Username" />
+                  <Text layoutX="61.0" layoutY="128.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" wrappingWidth="135.4375">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Text>
+                  <TextField fx:id="Password" layoutX="61.0" layoutY="139.0" promptText="Password" />
+               </children>
+            </VBox>
+            <Text layoutX="107.0" layoutY="129.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SAMS 2024" textAlignment="CENTER" wrappingWidth="491.4375">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </Text>
+            <Text layoutX="114.0" layoutY="381.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Paper submission and review system for the June 2024 International Software Engineering Conference: Software Architecture Mining Workshop" textAlignment="CENTER" wrappingWidth="491.4375">
+               <font>
+                  <Font name="System Bold" size="11.0" />
+               </font>
+            </Text>            
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>
